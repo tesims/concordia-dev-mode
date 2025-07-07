@@ -2,7 +2,12 @@
 {
   "name": "Concordia",
   "image": "mcr.microsoft.com/devcontainers/python:0-3.11",
-  "postCreateCommand": "bin/install.sh",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "20"
+    }
+  },
+  "postCreateCommand": "bin/install.sh && npm install -g @anthropic-ai/claude-code",
   "customizations": {
     "vscode": {
       "extensions": [
