@@ -3,7 +3,7 @@
   "name": "Concordia",
   "image": "mcr.microsoft.com/devcontainers/python:0-3.11",
   "features": {
-    "ghcr.io/devcontainers/features/node:1": {
+    "ghcr.io/devcontainers/features/node:2": {
       "version": "20"
     }
   },
